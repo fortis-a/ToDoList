@@ -93,3 +93,11 @@ button.deleteBtn {
   font-family: "Poppins", sans-serif;
 }
 
+@media screen and (max-width: 500px){
+  .title{
+    font-size: 15px;
+  }
+  span{
+    font-size: 9px;
+  }
+}
