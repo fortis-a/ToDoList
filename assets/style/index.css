@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@300;400&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1056%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(26%2c 124%2c 188%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c524.176C98.323%2c530.81%2c188.683%2c475.855%2c270.794%2c421.363C351.959%2c367.499%2c416.642%2c296.521%2c467.879%2c213.673C524.985%2c121.335%2c599.947%2c23.42%2c583.245%2c-83.858C566.562%2c-191.017%2c458.904%2c-254.418%2c382.951%2c-331.829C311.893%2c-404.251%2c248.564%2c-487.176%2c153.292%2c-522.066C54.676%2c-558.18%2c-57.012%2c-565.909%2c-155.313%2c-528.946C-250.732%2c-493.066%2c-307.995%2c-401.757%2c-373.775%2c-323.878C-438.699%2c-247.013%2c-509.942%2c-174.133%2c-536.883%2c-77.192C-566.02%2c27.65%2c-588.715%2c150.218%2c-531.203%2c242.592C-474.139%2c334.247%2c-343.68%2c335.775%2c-248.287%2c386.342C-162.922%2c431.593%2c-96.398%2c517.672%2c0%2c524.176' fill='%2311537e'%3e%3c/path%3e%3cpath d='M1440 958.134C1523.999 956.264 1615.333 988.222 1686.527 943.604 1757.841 898.912 1771.175 803.75 1807.491 727.828 1844.559 650.335 1911.272 578.982 1901.778 493.606 1892.233 407.775 1821.659 342.846 1758.1680000000001 284.306 1699.906 230.587 1630.929 190.57100000000003 1553.724 172.69099999999997 1479.432 155.486 1401.819 159.69299999999998 1329.9279999999999 185.12900000000002 1260.476 209.702 1210.16 264.065 1155.588 313.55600000000004 1093.366 369.985 1006.4839999999999 413.05600000000004 988.1990000000001 495.041 969.775 577.647 1028.6390000000001 654.8389999999999 1062.137 732.564 1096.41 812.088 1111.963 910.351 1186.317 954.738 1260.432 998.982 1353.704 960.0550000000001 1440 958.134' fill='%2339a0e4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1056'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.title{
+  font-family: "Playball";
+  color: #042a50;
+}
+
+span{
+  font-size: small;
+  color: #3e648b;
+}
+
+.container{
+  width: 50%;
+  min-width: 200px;
+  background-color: rgb(226, 241, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid #585858;
+  border-radius: 6px;
+}
+
+#taskInput{
+  font-family: "Poppins", sans-serif;
+  max-width: 153px;
+  border: #011e3b solid 1px;
+  border-radius: 1.5px;
+}
+
+.content{
+  width: 100%;
+ 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  
+}
+li {
+  margin-top: 5px;
+  width: 100%;
+  min-width: 200px;
+  padding: 9px;
+  border: 1px solid #042a50;
+  background-color: rgb(249, 252, 255);
+  border-radius: 5px;
+  position: relative;
+  overflow-wrap: break-word;
+ 
+}
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  overflow-wrap: break-word;
+}
+
+.btn-add{
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(87, 158, 224);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button.deleteBtn {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  font-size: 12px;
+  color: rgb(250, 4, 4);
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
