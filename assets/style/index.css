@@ -37,7 +37,7 @@ span{
 
 #taskInput{
   font-family: "Poppins", sans-serif;
-  max-width: 153px;
+  max-width: 195px;
   border: #011e3b solid 1px;
   border-radius: 1.5px;
 }
@@ -95,9 +95,12 @@ button.deleteBtn {
 
 @media screen and (max-width: 500px){
   .title{
-    font-size: 15px;
+    font-size: 13px;
   }
   span{
-    font-size: 9px;
+    font-size: 10px;
+  }
+  #taskInput{
+  width: 153px;
   }
 }
